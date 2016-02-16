@@ -1,0 +1,40 @@
+//
+//  ApiCallAFNetworking_Tests.m
+//  ApiCallAFNetworking Tests
+//
+//  Created by Dhaval Barot on 16/02/16.
+//  Copyright (c) 2016 Dhaval Barot. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <XCTest/XCTest.h>
+
+@interface ApiCallAFNetworking_Tests : XCTestCase
+
+@end
+
+@implementation ApiCallAFNetworking_Tests
+
+- (void)setUp {
+    [super setUp];
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+}
+
+- (void)tearDown {
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
+
+- (void)testExample {
+    // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+}
+
+- (void)testPerformanceExample {
+    // This is an example of a performance test case.
+    [self measureBlock:^{
+        // Put the code you want to measure the time of here.
+    }];
+}
+
+@end
